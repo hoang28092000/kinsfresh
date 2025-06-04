@@ -1,0 +1,138 @@
+/* tablet && PC */
+@media (min-width: 992px) and (max-width: 1279px) {
+  html {
+    font-size: 56.25%;
+  }
+  .main-header h2 {
+    font-size: 5rem;
+  }
+}
+
+/* tablet */
+@media (min-width: 768px) and (max-width: 991.98px) {
+  html {
+    font-size: 50%;
+  }
+  .top-header .content {
+    display: flex;
+    justify-content: center;
+  }
+  .main-header h2 {
+    font-size: 4.8rem;
+  }
+  .service-header {
+    display: none;
+  }
+  header {
+    border-bottom: 1px solid #ccc;
+  }
+  .main-header .content {
+    padding: 30px 0;
+  }
+  #menu-bar {
+    display: block;
+  }
+  .cart-header {
+    width: 32px;
+  }
+  .cart-header span {
+    display: none;
+  }
+  .navbar {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    width: 30%;
+    transform: translateX(-100%);
+    transition: 0.3s ease-in-out;
+    background: 0;
+    background-color: rgba(214, 212, 212, 0.9);
+    z-index: 999;
+  }
+  .navbar .content ul {
+    display: flex;
+    flex-direction: column;
+    padding-top: 220px;
+  }
+  .navbar .content ul a {
+    color: var(--text-color);
+    font-weight: 700;
+    display: flex;
+    width: 180px;
+    font-size: 1.6rem;
+    padding: 0;
+    text-align: start;
+  }
+  .search-box {
+    display: none;
+  }
+}
+
+@media (max-width: 767.98px){
+  html {
+    font-size: 50%;
+  }
+  .top-header .content {
+    display: flex;
+    justify-content: center;
+  }
+  .main-header h2 {
+    font-size: 4.8rem;
+  }
+  .service-header {
+    display: none;
+  }
+  header {
+    border-bottom: 1px solid #ccc;
+  }
+  .main-header .content {
+    padding: 30px 0;
+  }
+  #menu-bar {
+    display: block;
+  }
+  .cart-header {
+    width: 32px;
+  }
+  .cart-header span {
+    display: none;
+  }
+  .navbar {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    width: 50%;
+    transform: translateX(-100%);
+    transition: 0.3s ease-in-out;
+    background: 0;
+    background-color: rgba(214, 212, 212, 0.9);
+    z-index: 999;
+  }
+  .navbar .content ul {
+    display: flex;
+    flex-direction: column;
+    padding-top: 220px;
+  }
+  .navbar .content ul a {
+    color: var(--text-color);
+    font-weight: 700;
+    display: flex;
+    font-size: 1.6rem;
+    padding: 0;
+    text-align: start;
+  }
+  .search-box {
+    display: none;
+  }
+.main-footer .content{
+    flex-direction: column;
+    gap:30px;
+  }
+  .info-footer iframe{
+    width: 220px;
+    height: 12  0px;
+  }
+}
+
