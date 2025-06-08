@@ -1,0 +1,274 @@
+[
+  {
+    "id": "ba-chi-heo",
+    "name": "Ba chỉ heo",
+    "category": "thit-heo",
+    "price": 210000,
+    "image": "../asset/image-products/bachiheo.png",
+    "imageHover" : "../asset/image-products/bachiheo2.png",
+    "description": "<p><strong>Ba chỉ heo</strong> hay còn gọi là thịt ba rọi heo, nằm ở phần thịt bụng của heo...</p><p><strong>Phương pháp sản xuất:</strong> Heo được nuôi theo quy trình khép kín...</p><p><strong>Chất lượng:</strong></p><ul><li>Không hormone kích thích sinh trưởng</li><li>Không chất tạo nạc</li><li>Không bơm nước</li><li>Không tiền mê</li><li>Không hàn thô</li><li>Không hoá chất tắm ướp bảo quản</li><li>Không dùng bất kỳ hóa chất độc hại nào...</li></ul><p><strong>Bán theo yêu cầu:</strong> Thái mỏng để xào / thái cục để kho / cắt dày...</p>"
+  },
+  {
+    "id": "ba-chi-bo",
+    "name": "Ba chỉ bò",
+    "category": "thit-bo",
+    "price": 320000,
+    "image": "../asset/image-products/bachibo.png",
+    "imageHover": "../asset/image-products/bachibo2.png",
+    
+    "description": "<p><strong>Ba chỉ bò</strong> là phần thịt nằm ở bụng bò, có các lớp mỡ và thịt xen kẽ, thích hợp cho các món nướng, lẩu, xào.</p><p><strong>Chất lượng:</strong> Thịt tươi ngon, đảm bảo an toàn vệ sinh thực phẩm.</p><p><strong>Bán theo yêu cầu:</strong> Thái lát mỏng, thái cục.</p>"
+  },
+  {
+    "id": "bong-cai-trang",
+    "name": "Bông cải trắng",
+    "category": "rau-cu",
+    "price": 30000,
+    "image": "../asset/image-products/bongcai.png",
+    "imageHover" : "../asset/image-products/bongcai2.png",
+    "description": "<p><strong>Bông cải trắng</strong> (súp lơ trắng) là loại rau củ giàu vitamin và khoáng chất, tốt cho sức khỏe.</p><p><strong>Chất lượng:</strong> Sản phẩm tươi, không chất bảo quản.</p><p><strong>Sử dụng:</strong> Nấu canh, luộc, xào, salad.</p>"
+  },
+  {
+    "id": "bo-xay",
+    "name": "Bò xay",
+    "category": "thit-bo",
+    "price": 250000,
+    "image": "../asset/image-products/boxay.png",
+    "imageHover" : "../asset/image-products/boxay2.png",
+    "description": "<p><strong>Thịt bò xay</strong> được làm từ thịt bò tươi nguyên chất, tiện lợi cho nhiều món ăn.</p><p><strong>Chất lượng:</strong> Thịt bò sạch, không pha trộn, đảm bảo vệ sinh.</p><p><strong>Sử dụng:</strong> Làm bò băm viên, sốt bò băm, nhân bánh...</p>"
+  },
+  {
+    "id": "ca-chua",
+    "name": "Cà chua",
+    "category": "rau-cu",
+    "price": 25000,
+    "image": "../asset/image-products/cachua.png",
+    "imageHover" : "../asset/image-products/cachua2.png",
+    "description": "<p><strong>Cà chua</strong> là loại quả quen thuộc, giàu vitamin C và chất chống oxy hóa.</p><p><strong>Chất lượng:</strong> Cà chua tươi, chín tự nhiên.</p><p><strong>Sử dụng:</strong> Nấu canh, salad, nước sốt.</p>"
+  },
+  {
+    "id": "canh-ga",
+    "name": "Cánh gà",
+    "category": "san-pham-khac",
+    "price": 90000,
+    "image": "../asset/image-products/canhga.png",
+    "imageHover" : "../asset/image-products/canhga2.png",
+    "description": "<p><strong>Cánh gà</strong> là phần thịt được nhiều người yêu thích, phù hợp để chiên, nướng, rim.</p><p><strong>Chất lượng:</strong> Cánh gà tươi, sạch, đảm bảo an toàn.</p>"
+  },
+  {
+    "id": "can-tay",
+    "name": "Cần tây",
+    "category": "rau-cu",
+    "price": 50000,
+    "image": "../asset/image-products/cantay.png",
+    "imageHover" : "../asset/image-products/cantay2.png",
+    "description": "<p><strong>Cần tây</strong> là loại rau gia vị có mùi thơm đặc trưng, giàu chất xơ và khoáng chất.</p><p><strong>Chất lượng:</strong> Cần tây tươi, sạch.</p><p><strong>Sử dụng:</strong> Xào, nấu canh, ép nước uống.</p>"
+  },
+  {
+    "id": "ca-rot",
+    "name": "Cà rốt",
+    "category": "rau-cu",
+    "price": 20000,
+    "image": "../asset/image-products/carot.png",
+    "imageHover" : "../asset/image-products/carot2.png",
+    "description": "<p><strong>Cà rốt</strong> là loại củ giàu vitamin A, tốt cho mắt và da.</p><p><strong>Chất lượng:</strong> Cà rốt tươi, củ to, không sâu bệnh.</p><p><strong>Sử dụng:</strong> Nấu canh, xào, làm salad, nước ép.</p>"
+  },
+  {
+    "id": "chan-heo",
+    "name": "Chân heo",
+    "category": "thit-heo",
+    "price": 85000,
+    "image": "../asset/image-products/chanheo.png",
+    "imageHover" : "../asset/image-products/chanheo2.png",
+    "description": "<p><strong>Chân heo</strong> thường dùng để hầm, nấu giả cầy hoặc làm các món tiềm bổ dưỡng.</p><p><strong>Chất lượng:</strong> Chân heo tươi, đã làm sạch.</p>"
+  },
+  {
+    "id": "cot-let-heo",
+    "name": "Cốt lết heo",
+    "category": "thit-heo",
+    "price": 150000,
+    "image": "../asset/image-products/cotlet.png",
+    "imageHover" : "../asset/image-products/cotlet2.png",
+    "description": "<p><strong>Cốt lết heo</strong> là phần thịt thăn có xương sườn, mềm và ngọt, phù hợp để nướng, chiên.</p><p><strong>Chất lượng:</strong> Thịt cốt lết tươi, không chất bảo quản.</p>"
+  },
+  {
+    "id": "dui-goc-tu-ga",
+    "name": "Đùi góc tư gà",
+    "category": "san-pham-khac",
+    "price": 95000,
+    "image": "../asset/image-products/duigoctu.png",
+    "imageHover" : "../asset/image-products/duigoctu2.png",
+    "description": "<p><strong>Đùi góc tư gà</strong> bao gồm phần đùi và một phần thân trên, thích hợp để nướng, chiên.</p><p><strong>Chất lượng:</strong> Đùi gà tươi, được kiểm dịch.</p>"
+  },
+  {
+    "id": "dui-heo",
+    "name": "Đùi heo",
+    "category": "thit-heo",
+    "price": 130000,
+    "image": "../asset/image-products/duiheo.png",
+    "imageHover" : "../asset/image-products/duiheo2.png",
+    "description": "<p><strong>Đùi heo</strong> là phần thịt lớn, có thể dùng để làm giò heo, kho, luộc.</p><p><strong>Chất lượng:</strong> Đùi heo tươi, săn chắc.</p>"
+  },
+  {
+    "id": "dui-toi-ga",
+    "name": "Đùi tỏi gà",
+    "category": "san-pham-khac",
+    "price": 95000,
+    "image": "../asset/image-products/duitoiga.png",
+    "imageHover" : "../asset/image-products/duitoiga2.png",
+    "description": "<p><strong>Đùi tỏi gà</strong> là phần đùi nhỏ, mềm và dễ chế biến, thích hợp cho các món chiên, nướng.</p><p><strong>Chất lượng:</strong> Đùi tỏi gà tươi ngon.</p>"
+  },
+  {
+    "id": "ga-nguyen-con",
+    "name": "Gà nguyên con (2-3kg)",
+    "category": "san-pham-khac",
+    "price": 180000,
+    "image": "../asset/image-products/ganguyencon.png",
+    "imageHover" : "../asset/image-products/ganguyencon2.png",
+    "description": "<p><strong>Gà nguyên con</strong> tươi sạch, đã được làm lông và làm sạch nội tạng, sẵn sàng để chế biến.</p><p><strong>Chất lượng:</strong> Gà ta tươi ngon, không chất tăng trọng.</p><p><strong>Sử dụng:</strong> Luộc, nướng, nấu cháo, tiềm.</p>"
+  },
+  {
+    "id": "gio-heo",
+    "name": "Giò heo",
+    "category": "thit-heo",
+    "price": 100000,
+    "image": "../asset/image-products/gioluoc.png",
+    "imageHover" : "../asset/image-products/gioluoc2.png",
+    "description": "<p><strong>Giò heo</strong> hay móng giò, thường dùng để hầm, nấu bún mọc, bún riêu.</p><p><strong>Chất lượng:</strong> Giò heo tươi, sạch.</p>"
+  },
+  {
+    "id": "gung",
+    "name": "Gừng",
+    "category": "rau-cu",
+    "price": 35000,
+    "image": "../asset/image-products/gung.png",
+    "imageHover" : "../asset/image-products/gung2.png",
+    "description": "<p><strong>Gừng</strong> là loại gia vị quen thuộc, có mùi thơm và vị cay nồng, dùng để khử mùi tanh, tạo hương vị.</p><p><strong>Chất lượng:</strong> Gừng tươi, củ to.</p>"
+  },
+  {
+    "id": "hanh-la",
+    "name": "Hành lá 300g",
+    "category": "rau-cu",
+    "price": 45000,
+    "image": "../asset/image-products/hanhla.png",
+    "imageHover" : "../asset/image-products/hanhla2.png",
+    "description": "<p><strong>Hành lá</strong> là loại rau gia vị không thể thiếu trong nhiều món ăn Việt, dùng để trang trí và tạo mùi thơm.</p><p><strong>Chất lượng:</strong> Hành lá tươi, xanh.</p>"
+  },
+  {
+    "id": "lap-xuong",
+    "name": "Lạp xưởng",
+    "category": "thit-heo",
+    "price": 120000,
+    "image": "../asset/image-products/lapxuong.png",
+    "imageHover" : "../asset/image-products/lapxuong2.png",
+    "description": "<p><strong>Lạp xưởng</strong> là món ăn chế biến sẵn, có thể chiên, nướng hoặc hấp, ăn kèm với cơm hoặc xôi.</p><p><strong>Chất lượng:</strong> Lạp xưởng sạch, không chất bảo quản.</p>"
+  },
+  {
+    "id": "mang-tay",
+    "name": "Măng tây 300g",
+    "category": "rau-cu",
+    "price": 50000,
+    "image": "../asset/image-products/mangtay.png",
+    "imageHover" : "../asset/image-products/mangtay2.png",
+    "description": "<p><strong>Măng tây</strong> là loại rau cao cấp, giàu dinh dưỡng, thích hợp để xào, luộc hoặc nướng.</p><p><strong>Chất lượng:</strong> Măng tây tươi, non.</p>"
+  },
+  {
+    "id": "nac-vai-bo",
+    "name": "Nạc vai bò",
+    "category": "thit-bo",
+    "price": 260000,
+    "image": "../asset/image-products/nacvaibo.png",
+    "imageHover" : "../asset/image-products/nacvaibo2.png",
+    "description": "<p><strong>Nạc vai bò</strong> là phần thịt có lẫn gân và mỡ, mềm và có hương vị đặc trưng, thích hợp để xào, nướng, hầm.</p><p><strong>Chất lượng:</strong> Thịt bò tươi, đảm bảo an toàn.</p><p><strong>Bán theo yêu cầu:</strong> Thái lát, thái cục.</p>"
+  },
+  {
+    "id": "nam-bo",
+    "name": "Nạm bò",
+    "category": "thit-bo",
+    "price": 240000,
+    "image": "../asset/image-products/nambo.png",
+    "imageHover" : "../asset/image-products/nambo2.png",
+    "description": "<p><strong>Nạm bò</strong> là phần thịt có cả nạc, mỡ và gân, thường dùng để nấu phở, bò kho, hầm.</p><p><strong>Chất lượng:</strong> Nạm bò tươi, gân mềm.</p>"
+  },
+  {
+    "id": "ot",
+    "name": "Ớt 300g",
+    "category": "rau-cu",
+    "price": 70000,
+    "image": "../asset/image-products/ot.png",
+    "imageHover" : "../asset/image-products/ot2.png",
+    "description": "<p><strong>Ớt</strong> là loại gia vị tạo độ cay cho món ăn, có nhiều loại với độ cay khác nhau.</p><p><strong>Chất lượng:</strong> Ớt tươi, không sâu bệnh.</p>"
+  },
+  {
+    "id": "ot-chuong",
+    "name": "Ớt chuông 300g",
+    "category": "rau-cu",
+    "price": 40000,
+    "image": "../asset/image-products/otchuong.png",
+    "imageHover" : "../asset/image-products/otchuong.png",
+    "description": "<p><strong>Ớt chuông</strong> (ớt ngọt) có nhiều màu sắc, giàu vitamin C, dùng để xào, trộn salad hoặc nướng.</p><p><strong>Chất lượng:</strong> Ớt chuông tươi, giòn.</p>"
+  },
+  {
+    "id": "ot-chuong-do",
+    "name": "Ớt chuông đỏ 300g",
+    "category": "rau-cu",
+    "price": 45000,
+    "image": "../asset/image-products/otchuongdo.png",
+    "imageHover" : "../asset/image-products/otchuongdo2.png",
+    "description": "<p><strong>Ớt chuông đỏ</strong> có vị ngọt hơn các loại ớt chuông khác, giàu chất chống oxy hóa.</p><p><strong>Chất lượng:</strong> Ớt chuông đỏ tươi, màu sắc đẹp.</p>"
+  },
+  {
+    "id": "than-bo",
+    "name": "Thăn bò",
+    "category": "thit-bo",
+    "price": 320000,
+    "image": "../asset/image-products/thanbo.png",
+    "imageHover" : "../asset/image-products/thanbo2.png",
+    "description": "<p><strong>Thăn bò</strong> là phần thịt mềm nhất của bò, thích hợp để làm steak, nướng hoặc xào.</p><p><strong>Chất lượng:</strong> Thăn bò tươi ngon, không gân.</p><p><strong>Bán theo yêu cầu:</strong> Thái miếng dày, thái lát.</p>"
+  },
+  {
+    "id": "thit-heo-xay",
+    "name": "Thịt heo xay",
+    "category": "thit-heo",
+    "price": 120000,
+    "image": "../asset/image-products/thitheoxay.png",
+    "imageHover" : "../asset/image-products/thitheoxay2.png",
+    "description": "<p><strong>Thịt heo xay</strong> tiện lợi cho việc chế biến nhiều món ăn như chả giò, nhân bánh, sốt.</p><p><strong>Chất lượng:</strong> Thịt heo tươi, được xay sạch, đảm bảo vệ sinh.</p>"
+  },
+  {
+    "id": "toi",
+    "name": "Tỏi",
+    "category": "rau-cu",
+    "price": 20000,
+    "image": "../asset/image-products/toi.png",
+    "imageHover" : "../asset/image-products/toi2.png",
+    "description": "<p><strong>Tỏi</strong> là loại gia vị không thể thiếu trong nấu ăn, có mùi thơm đặc trưng và nhiều công dụng tốt cho sức khỏe.</p><p><strong>Chất lượng:</strong> Tỏi tươi, củ to, không mọc mầm.</p>"
+  },
+  {
+    "id": "uc-ga",
+    "name": "Ức gà",
+    "category": "san-pham-khac",
+    "price": 95000,
+    "image": "../asset/image-products/ucga.png",
+    "imageHover" : "../asset/image-products/ucga2.png",
+    "description": "<p><strong>Ức gà</strong> là phần thịt nạc, ít mỡ, phù hợp cho người ăn kiêng hoặc tập gym.</p><p><strong>Chất lượng:</strong> Ức gà tươi, không da, không xương.</p><p><strong>Bán theo yêu cầu:</strong> Thái miếng, để nguyên miếng.</p>"
+  },
+  {
+    "id": "xuc-xich",
+    "name": "Xúc xích",
+    "category": "thit-heo",
+    "price": 70000,
+    "image": "../asset/image-products/xucxich.png",
+    "imageHover" : "../asset/image-products/xucxich2.png",
+    
+    "description": "<p><strong>Xúc xích</strong> là món ăn nhanh tiện lợi, có thể chiên, nướng hoặc ăn kèm với mì.</p><p><strong>Chất lượng:</strong> Xúc xích thơm ngon, đảm bảo an toàn thực phẩm.</p>"
+  },
+  {
+    "id": "xuong-suon",
+    "name": "Xương sườn",
+    "category": "thit-heo",
+    "price": 110000,
+    "image": "../asset/image-products/xuongxuon.png",
+    "imageHover" : "../asset/image-products/xuongxuon2.png",
+    "description": "<p><strong>Xương sườn</strong> heo thích hợp để hầm canh, nấu bún hoặc nướng.</p><p><strong>Chất lượng:</strong> Xương sườn tươi, không mùi.</p>"
+  }
+]

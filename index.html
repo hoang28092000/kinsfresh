@@ -12,6 +12,7 @@
     />
     <link rel="stylesheet" href="./css/resset.css" />
     <link rel="stylesheet" href="./css/main.css" />
+    <link rel="stylesheet" href="./css/pages.css" />
     <link rel="stylesheet" href="./css/responsive.css" />
     <title>KinsFresh</title>
   </head>
@@ -28,10 +29,10 @@
               <a href="#">TRANG CHỦ</a>
             </li>
             <li>
-              <a href="" target="_blank">GIỚI THIỆU</a>
+              <a href="./pages/about-us.html">GIỚI THIỆU</a>
             </li>
             <li class="nav-products">
-              <a href="" target="_blank"
+              <a href="./pages/products.html"
                 >SẢN PHẨM
                 <i class="fa-solid fa-chevron-down" id="drop-nav"></i>
               </a>
@@ -54,13 +55,13 @@
               </ul>
             </li>
             <li>
-              <a href="" target="_blank">TIN TỨC</a>
+              <a href="./pages/news.html">TIN TỨC</a>
             </li>
             <li>
-              <a href="" target="_blank">HƯỚNG DẪN</a>
+              <a href="./pages/instruct.html">HƯỚNG DẪN</a>
             </li>
             <li>
-              <a href="" target="_blank">LIÊN HỆ</a>
+              <a href="./pages/about-us.html">LIÊN HỆ</a>
             </li>
           </ul>
           <form action="" class="search-box">
@@ -87,19 +88,29 @@
               </div>
               <ul class="list-category">
                 <li>
-                  <a href="">Rau củ quả</a>
+                  <a href="" class="category-link" data-category="rau-cu"
+                    >Rau củ quả</a
+                  >
                 </li>
                 <li>
-                  <a href="">Trái cây tươi</a>
+                  <a href="" class="category-link" data-category="san-pham-khac"
+                    >Trái cây tươi</a
+                  >
                 </li>
                 <li>
-                  <a href="">Thịt lợn</a>
+                  <a href="" class="category-link" data-category="thit-heo"
+                    >Thịt lợn</a
+                  >
                 </li>
                 <li>
-                  <a href="">Thịt bò</a>
+                  <a href="" class="category-link" data-category="thit-bo"
+                    >Thịt bò</a
+                  >
                 </li>
                 <li>
-                  <a href="">Sản phẩm khác</a>
+                  <a href="" class="category-link" data-category="san-pham-khac"
+                    >Sản phẩm khác</a
+                  >
                 </li>
               </ul>
             </div>
@@ -179,96 +190,72 @@
               </div>
             </section>
             <div class="relate-product">
-              <div class="product">
-                <a href="" target="_blank">
-                  <div class="item">
-                    <img
-                      src="./asset/image-products/bachiheo.png"
-                      alt="thit ba chi heo"
-                    />
-                    <div class="info-product">
-                      <h4 class="title-product">Thịt ba chỉ heo</h4>
-                      <p class="price">190.000 VND</p>
-                      <button class="add-card">Thêm vào giỏ hàng</button>
-                    </div>
-                  </div>
-                </a>
-              </div>
-              <div class="product">
-                <a href="" target="_blank">
-                  <div class="item">
-                    <img
-                      src="./asset/image-products/boxay.png"
-                      alt="thit ba chi heo"
-                    />
-                    <div class="info-product">
-                      <h4 class="title-product">Thịt bò xay</h4>
-                      <p class="price">290.000 VND</p>
-                      <button class="add-card">Thêm vào giỏ hàng</button>
-                    </div>
-                  </div>
-                </a>
-              </div>
-              <div class="product">
-                <a href="" target="_blank">
-                  <div class="item">
-                    <img
-                      src="./asset/image-products/bongcai.png"
-                      alt="thit ba chi heo"
-                    />
-                    <div class="info-product">
-                      <h4 class="title-product">Bông cải trắng</h4>
-                      <p class="price">30.000 VND</p>
-                      <button class="add-card">Thêm vào giỏ hàng</button>
-                    </div>
-                  </div>
-                </a>
-              </div>
-              <div class="product">
-                <a href="" target="_blank">
-                  <div class="item">
-                    <img
-                      src="./asset/image-products/carot.png"
-                      alt="thit ba chi heo"
-                    />
-                    <div class="info-product">
-                      <h4 class="title-product">Cà rổt</h4>
-                      <p class="price">39.000 VND</p>
-                      <button class="add-card">Thêm vào giỏ hàng</button>
-                    </div>
-                  </div>
-                </a>
-              </div>
-              <div class="product">
-                <a href="" target="_blank">
-                  <div class="item">
-                    <img
-                      src="./asset/image-products/cachua.png"
-                      alt="thit ba chi heo"
-                    />
-                    <div class="info-product">
-                      <h4 class="title-product">Cà chua</h4>
-                      <p class="price">29.000 VND</p>
-                      <button class="add-card">Thêm vào giỏ hàng</button>
-                    </div>
-                  </div>
-                </a>
-              </div>
-              <div class="product">
-                <a href="" target="_blank">
-                  <div class="item">
-                    <img
-                      src="./asset/image-products/ganguyencon.png"
-                      alt="thit ba chi heo"
-                    />
-                    <div class="info-product">
-                      <h4 class="title-product">Thịt gà nguyên con</h4>
-                      <p class="price">190.000 VND</p>
-                      <button class="add-card">Thêm vào giỏ hàng</button>
-                    </div>
-                  </div>
-                </a>
-              </div>
+              <a href="" class="product">
+                <img
+                  src="./asset/image-products/bachiheo.png"
+                  alt="thit ba chi heo"
+                />
+                <div class="info-product">
+                  <h4 class="title-product">Thịt ba chỉ heo</h4>
+                  <p class="price">190.000 VND</p>
+                  <button class="add-card">Thêm vào giỏ hàng</button>
+                </div>
+              </a>
+              <a href="" class="product">
+                <img
+                  src="./asset/image-products/boxay.png"
+                  alt="thit ba chi heo"
+                />
+                <div class="info-product">
+                  <h4 class="title-product">Thịt bò xay</h4>
+                  <p class="price">290.000 VND</p>
+                  <button class="add-card">Thêm vào giỏ hàng</button>
+                </div>
+              </a>
+              <a href="" class="product">
+                <img
+                  src="./asset/image-products/bongcai.png"
+                  alt="thit ba chi heo"
+                />
+                <div class="info-product">
+                  <h4 class="title-product">Bông cải trắng</h4>
+                  <p class="price">30.000 VND</p>
+                  <button class="add-card">Thêm vào giỏ hàng</button>
+                </div>
+              </a>
+              <a href="" class="product">
+                <img
+                  src="./asset/image-products/carot.png"
+                  alt="thit ba chi heo"
+                />
+                <div class="info-product">
+                  <h4 class="title-product">Cà rổt</h4>
+                  <p class="price">39.000 VND</p>
+                  <button class="add-card">Thêm vào giỏ hàng</button>
+                </div>
+              </a>
+              <a href="" class="product">
+                <img
+                  src="./asset/image-products/cachua.png"
+                  alt="thit ba chi heo"
+                />
+                <div class="info-product">
+                  <h4 class="title-product">Cà chua</h4>
+                  <p class="price">29.000 VND</p>
+                  <button class="add-card">Thêm vào giỏ hàng</button>
+                </div>
+              </a>
+              <a href="" class="product">
+                <img
+                  src="./asset/image-products/ganguyencon.png"
+                  alt="thit ba chi heo"
+                />
+                <div class="info-product">
+                  <h4 class="title-product">Thịt gà nguyên con</h4>
+                  <p class="price">190.000 VND</p>
+                  <button class="add-card">Thêm vào giỏ hàng</button>
+                </div>
+              </a>
             </div>
           </div>
           <div class="right">
@@ -330,8 +317,11 @@
                 <a href="">Xem tất cả</a>
               </div>
               <div class="list-product">
-                <div class="wrapper-list ">
-                  <a href="" class="product-card">
+                <div class="wrapper-list">
+                  <a
+                    href="./details/detail-products.html?id=thit-heo-xay"
+                    class="product-card"
+                  >
                     <div class="img-wrapper">
                       <img
                         src="./asset/image-products/thitheoxay.png"
@@ -347,7 +337,10 @@
                     <h3 class="name">Thịt heo xay</h3>
                     <p class="price-product">180.000VND</p>
                   </a>
-                  <a href="" class="product-card">
+                  <a
+                    href="./details/detail-products.html?id=dui-heo"
+                    class="product-card"
+                  >
                     <div class="img-wrapper">
                       <img
                         src="./asset/image-products/duiheo.png"
@@ -363,7 +356,10 @@
                     <h3 class="name">Đùi heo</h3>
                     <p class="price-product">190.000VND</p>
                   </a>
-                  <a href="" class="product-card">
+                  <a
+                    href="./details/detail-products.html?id=cot-let-heo"
+                    class="product-card"
+                  >
                     <div class="img-wrapper">
                       <img
                         src="./asset/image-products/cotlet.png"
@@ -379,7 +375,10 @@
                     <h3 class="name">Cot-let heo</h3>
                     <p class="price-product">160.000VND</p>
                   </a>
-                  <a href="" class="product-card">
+                  <a
+                    href="./details/detail-products.html?id=ba-chi-heo"
+                    class="product-card"
+                  >
                     <div class="img-wrapper">
                       <img
                         src="./asset/image-products/bachiheo.png"
@@ -395,7 +394,10 @@
                     <h3 class="name">Ba chỉ heo</h3>
                     <p class="price-product">210.000VND</p>
                   </a>
-                  <a href="" class="product-card">
+                  <a
+                    href="./details/detail-products.html?id=chan-heo"
+                    class="product-card"
+                  >
                     <div class="img-wrapper">
                       <img
                         src="./asset/image-products/chanheo.png"
@@ -416,211 +418,221 @@
                 <button class="next" id="list_product-next">&#10095;</button>
               </div>
             </section>
-            <section class="container-product ">
+            <section class="container-product">
               <div class="category-product_title">
                 <h3>RAU CỦ QUẢ</h3>
                 <a href="">Xem tất cả</a>
               </div>
               <div class="list-product">
                 <div class="wrapper-list">
-                  <a href="">
-                    <div class="product-card">
-                      <div class="img-wrapper">
-                        <img
-                          src="./asset/image-products/bongcai.png"
-                          class="main-img"
-                          alt=""
-                        />
-                        <img
-                          src="./asset/image-products/bongcai2.png"
-                          class="hover-img"
-                          alt=""
-                        />
-                      </div>
-                      <h3 class="name">Bông cải trắng</h3>
-                      <p class="price-product">30.000VND</p>
+                  <a
+                    href="./details/detail-products.html?id=bong-cai-trang"
+                    class="product-card"
+                  >
+                    <div class="img-wrapper">
+                      <img
+                        src="./asset/image-products/bongcai.png"
+                        class="main-img"
+                        alt=""
+                      />
+                      <img
+                        src="./asset/image-products/bongcai2.png"
+                        class="hover-img"
+                        alt=""
+                      />
                     </div>
+                    <h3 class="name">Bông cải trắng</h3>
+                    <p class="price-product">30.000VND</p>
                   </a>
-                  <a href="">
-                    <div class="product-card">
-                      <div class="img-wrapper">
-                        <img
-                          src="./asset/image-products/ot.png"
-                          class="main-img"
-                          alt=""
-                        />
-                        <img
-                          src="./asset/image-products/ot2.png"
-                          class="hover-img"
-                          alt=""
-                        />
-                      </div>
-                      <h3 class="name">Ớt sừng</h3>
-                      <p class="price-product">50.000VND</p>
+                  <a
+                    href="./details/detail-products.html?id=ot"
+                    class="product-card"
+                  >
+                    <div class="img-wrapper">
+                      <img
+                        src="./asset/image-products/ot.png"
+                        class="main-img"
+                        alt=""
+                      />
+                      <img
+                        src="./asset/image-products/ot2.png"
+                        class="hover-img"
+                        alt=""
+                      />
                     </div>
+                    <h3 class="name">Ớt sừng</h3>
+                    <p class="price-product">50.000VND</p>
                   </a>
-                  <a href="">
-                    <div class="product-card">
-                      <div class="img-wrapper">
-                        <img
-                          src="./asset/image-products/cachua.png"
-                          class="main-img"
-                          alt=""
-                        />
-                        <img
-                          src="./asset/image-products/cachua2.png"
-                          class="hover-img"
-                          alt=""
-                        />
-                      </div>
-                      <h3 class="name">Cà chua</h3>
-                      <p class="price-product">30.000VND</p>
+                  <a
+                    href="./details/detail-products.html?id=ca-chua"
+                    class="product-card"
+                  >
+                    <div class="img-wrapper">
+                      <img
+                        src="./asset/image-products/cachua.png"
+                        class="main-img"
+                        alt=""
+                      />
+                      <img
+                        src="./asset/image-products/cachua2.png"
+                        class="hover-img"
+                        alt=""
+                      />
                     </div>
+                    <h3 class="name">Cà chua</h3>
+                    <p class="price-product">30.000VND</p>
                   </a>
-                  <a href="">
-                    <div class="product-card">
-                      <div class="img-wrapper">
-                        <img
-                          src="./asset/image-products/carot.png"
-                          class="main-img"
-                          alt=""
-                        />
-                        <img
-                          src="./asset/image-products/carot2.png"
-                          class="hover-img"
-                          alt=""
-                        />
-                      </div>
-                      <h3 class="name">Cà Rốt</h3>
-                      <p class="price-product">30.000VND</p>
+                  <a
+                    href="./details/detail-products.html?id=ca-rot"
+                    class="product-card"
+                  >
+                    <div class="img-wrapper">
+                      <img
+                        src="./asset/image-products/carot.png"
+                        class="main-img"
+                        alt=""
+                      />
+                      <img
+                        src="./asset/image-products/carot2.png"
+                        class="hover-img"
+                        alt=""
+                      />
                     </div>
+                    <h3 class="name">Cà Rốt</h3>
+                    <p class="price-product">30.000VND</p>
                   </a>
-                  <a href="">
-                    <div class="product-card">
-                      <div class="img-wrapper">
-                        <img
-                          src="./asset/image-products/cantay.png"
-                          class="main-img"
-                          alt=""
-                        />
-                        <img
-                          src="./asset/image-products/cantay2.png"
-                          class="hover-img"
-                          alt=""
-                        />
-                      </div>
-                      <h3 class="name">Bông cải trắng</h3>
-                      <p class="price-product">30.000VND</p>
+                  <a
+                    href="./details/detail-products.html?id=can-tay"
+                    class="product-card"
+                  >
+                    <div class="img-wrapper">
+                      <img
+                        src="./asset/image-products/cantay.png"
+                        class="main-img"
+                        alt=""
+                      />
+                      <img
+                        src="./asset/image-products/cantay2.png"
+                        class="hover-img"
+                        alt=""
+                      />
                     </div>
+                    <h3 class="name">Cần tây</h3>
+                    <p class="price-product">50.000VND</p>
                   </a>
                 </div>
                 <button class="prev" id="list_product-prev">&#10094;</button>
                 <button class="next" id="list_product-next">&#10095;</button>
               </div>
             </section>
-            <section class="banner-second ">
+            <section class="banner-second">
               <img src="./asset/banner/banner-6.jpg" alt="" />
               <div class="desc">
                 <h3>Hàng trăm sản phẩm phục vụ quí khách</h3>
                 <p>Tăng năng suất, chất lượng, chi phí</p>
               </div>
             </section>
-            <section class="container-product ">
+            <section class="container-product">
               <div class="category-product_title">
                 <h3>Thịt bò</h3>
                 <a href="">Xem tất cả</a>
               </div>
               <div class="list-product">
                 <div class="wrapper-list">
-                  <a href="">
-                    <div class="product-card">
-                      <div class="img-wrapper">
-                        <img
-                          src="./asset/image-products/boxay.png"
-                          class="main-img"
-                          alt=""
-                        />
-                        <img
-                          src="./asset/image-products/boxay2.png"
-                          class="hover-img"
-                          alt=""
-                        />
-                      </div>
-                      <h3 class="name">Bò xay</h3>
-                      <p class="price-product">220.000VND</p>
+                  <a
+                    href="./details/detail-products.html?id=bo-xay"
+                    class="product-card"
+                  >
+                    <div class="img-wrapper">
+                      <img
+                        src="./asset/image-products/boxay.png"
+                        class="main-img"
+                        alt=""
+                      />
+                      <img
+                        src="./asset/image-products/boxay2.png"
+                        class="hover-img"
+                        alt=""
+                      />
                     </div>
+                    <h3 class="name">Bò xay</h3>
+                    <p class="price-product">220.000VND</p>
                   </a>
-                  <a href="">
-                    <div class="product-card">
-                      <div class="img-wrapper">
-                        <img
-                          src="./asset/image-products/nambo.png"
-                          class="main-img"
-                          alt=""
-                        />
-                        <img
-                          src="./asset/image-products/nambo2.png"
-                          class="hover-img"
-                          alt=""
-                        />
-                      </div>
-                      <h3 class="name">Nạm bò</h3>
-                      <p class="price-product">250.000VND</p>
+                  <a
+                    href="./details/detail-products.html?id=nam-bo"
+                    class="product-card"
+                  >
+                    <div class="img-wrapper">
+                      <img
+                        src="./asset/image-products/nambo.png"
+                        class="main-img"
+                        alt=""
+                      />
+                      <img
+                        src="./asset/image-products/nambo2.png"
+                        class="hover-img"
+                        alt=""
+                      />
                     </div>
+                    <h3 class="name">Nạm bò</h3>
+                    <p class="price-product">240.000VND</p>
                   </a>
-                  <a href="">
-                    <div class="product-card">
-                      <div class="img-wrapper">
-                        <img
-                          src="./asset/image-products/thanbo.png"
-                          class="main-img"
-                          alt=""
-                        />
-                        <img
-                          src="./asset/image-products/thanbo2.png"
-                          class="hover-img"
-                          alt=""
-                        />
-                      </div>
-                      <h3 class="name">Thăn bò</h3>
-                      <p class="price-product">250.000VND</p>
+                  <a
+                    href="./details/detail-products.html?id=than-bo"
+                    class="product-card"
+                  >
+                    <div class="img-wrapper">
+                      <img
+                        src="./asset/image-products/thanbo.png"
+                        class="main-img"
+                        alt=""
+                      />
+                      <img
+                        src="./asset/image-products/thanbo2.png"
+                        class="hover-img"
+                        alt=""
+                      />
                     </div>
+                    <h3 class="name">Thăn bò</h3>
+                    <p class="price-product">320.000VND</p>
                   </a>
-                  <a href="">
-                    <div class="product-card">
-                      <div class="img-wrapper">
-                        <img
-                          src="./asset/image-products/nacvaibo.png"
-                          class="main-img"
-                          alt=""
-                        />
-                        <img
-                          src="./asset/image-products/nacvaibo2.png"
-                          class="hover-img"
-                          alt=""
-                        />
-                      </div>
-                      <h3 class="name">Nạc vai bò</h3>
-                      <p class="price-product">260.000VND</p>
+                  <a
+                    href="./details/detail-products.html?id=nac-vai-bo"
+                    class="product-card"
+                  >
+                    <div class="img-wrapper">
+                      <img
+                        src="./asset/image-products/nacvaibo.png"
+                        class="main-img"
+                        alt=""
+                      />
+                      <img
+                        src="./asset/image-products/nacvaibo2.png"
+                        class="hover-img"
+                        alt=""
+                      />
                     </div>
+                    <h3 class="name">Nạc vai bò</h3>
+                    <p class="price-product">260.000VND</p>
                   </a>
-                  <a href="">
-                    <div class="product-card">
-                      <div class="img-wrapper">
-                        <img
-                          src="./asset/image-products/bachibo.png"
-                          class="main-img"
-                          alt=""
-                        />
-                        <img
-                          src="./asset/image-products/bachibo2.png"
-                          class="hover-img"
-                          alt=""
-                        />
-                      </div>
-                      <h3 class="name">Ba chỉ bò</h3>
-                      <p class="price-product">270.000VND</p>
+                  <a
+                    href="./details/detail-products.html?id=ba-chi-bo"
+                    class="product-card"
+                  >
+                    <div class="img-wrapper">
+                      <img
+                        src="./asset/image-products/bachibo.png"
+                        class="main-img"
+                        alt=""
+                      />
+                      <img
+                        src="./asset/image-products/bachibo2.png"
+                        class="hover-img"
+                        alt=""
+                      />
                     </div>
+                    <h3 class="name">Ba chỉ bò</h3>
+                    <p class="price-product">270.000VND</p>
                   </a>
                 </div>
                 <button class="prev" id="list_product-prev">&#10094;</button>
@@ -629,7 +641,7 @@
             </section>
           </div>
         </div>
-        <section class="more-main ">
+        <section class="more-main">
           <div class="title-more">
             <div class="line"></div>
             <h2 class="title-second">TIN CẬP NHẬT</h2>
@@ -650,7 +662,7 @@
             </div>
             <div class="card">
               <a href="">
-                <img src="./asset/images/news-1.jpg" alt="news-1" />
+                <img src="./asset/images/news-2.jpg" alt="news-1" />
                 <div class="info-card">
                   <h3>Cách chọn thịt lợn sạch</h3>
                   <p>
@@ -662,7 +674,7 @@
             </div>
             <div class="card">
               <a href="">
-                <img src="./asset/images/news-1.jpg" alt="news-1" />
+                <img src="./asset/images/news-3.jpg" alt="news-1" />
                 <div class="info-card">
                   <h3>Cách làm món sườn nướng sốt dâu tây</h3>
                   <p>
@@ -674,7 +686,7 @@
             </div>
             <div class="card">
               <a href="">
-                <img src="./asset/images/news-1.jpg" alt="news-1" />
+                <img src="./asset/images/news-4.jpg" alt="news-1" />
                 <div class="info-card">
                   <h3>Những chất dinh dưỡng trong cà chua</h3>
                   <p>
@@ -698,7 +710,7 @@
             </div>
             <div class="card">
               <a href="">
-                <img src="./asset/images/news-1.jpg" alt="news-1" />
+                <img src="./asset/images/news-2.jpg" alt="news-1" />
                 <div class="info-card">
                   <h3>Vai trò của Lipid đối với sức khỏe</h3>
                   <p>
@@ -710,7 +722,7 @@
             </div>
           </div>
         </section>
-        <section class="more-main ">
+        <section class="more-main">
           <div class="title-more">
             <div class="line"></div>
             <h2 class="title-second">HƯỚNG DẪN MUA HÀNG</h2>
