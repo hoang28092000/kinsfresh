@@ -36,6 +36,13 @@ window.addEventListener("DOMContentLoaded", () => {
   loadPartial("contact-second", getPartialPath("contact-second.html"));
 });
 
+// Gọi khi trang load
+window.addEventListener("DOMContentLoaded", () => {
+  loadPartial("header", "../partials/header.html");
+  loadPartial("footer", "../partials/footer.html");
+  loadPartial("contact-second", "../partials/contact-second.html");
+});
+
 // menu
 window.addEventListener("DOMContentLoaded", () => {
   loadPartial("header", "../partials/header.html").then(() => {
