@@ -43,7 +43,7 @@ window.addEventListener("DOMContentLoaded", () => {
     });
   });
 
-  loadPartial("footer", "../partials/footer.html");
+  // loadPartial("footer", "../partials/footer.html");
 });
 
 // slide-main
