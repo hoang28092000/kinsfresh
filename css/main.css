@@ -343,7 +343,7 @@ footer {
   gap: 30px;
 }
 .main .content-main .left {
-  max-width: 304px;
+  width: 304px;
 }
 .content-main .left .title-category {
   display: flex;
@@ -790,7 +790,7 @@ footer {
 }
 
 .more-main .cards {
-  display: flex;
+  display: flex ;
   align-items: center;
   justify-content: space-between;
   flex-wrap: wrap;
@@ -896,21 +896,34 @@ main .companion img {
 
 /* contact-second */
 .contact-second {
-  position: fixed;
-  left: 60px;
-  bottom: 60px;
-  z-index: 1000;
+
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: start;
   gap: 20px;
-  z-index: 9999;
 }
 
 .contact-second a {
   text-decoration: none;
+  z-index: 9999;
+  position: fixed;
+  left: 60px;
+  bottom: 60px; 
 }
+
+.contact-second a:nth-child(1){
+ bottom:180px;
+}
+.contact-second a:nth-child(2){
+ bottom:120px;
+
+}
+.contact-second a:nth-child(3){
+ bottom:60px;
+
+}
+
 
 .contact-second .messenger-popup {
   font-size: 2.9rem;
@@ -985,6 +998,7 @@ main .companion img {
   background-color: #f1edee;
   border-radius: 60px;
   padding: 6px 10px;
+  overflow: hidden;
 }
 
 .up {
