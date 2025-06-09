@@ -43,7 +43,7 @@ window.addEventListener("DOMContentLoaded", async () => {
     });
   }
 
-  // nav-dropDown
+
   const dropNavbar = document.querySelector(".nav_category-list");
   const btnDrop = document.querySelector("#drop-nav");
   if (dropNavbar && btnDrop) {
