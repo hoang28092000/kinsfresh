@@ -24,9 +24,9 @@ function getPartialPath(filename) {
 
 // Gọi khi trang load, chỉ cần 1 lần DOMContentLoaded
 window.addEventListener("DOMContentLoaded", async () => {
-  await loadPartial("header", getPartialPath("header.html"));
-  await loadPartial("footer", getPartialPath("footer.html"));
-  await loadPartial("contact-second", getPartialPath("contact-second.html"));
+  await loadPartial("header", getPartialPath("../partials/header.html"));
+  await loadPartial("footer", getPartialPath("../partials/footer.html"));
+  await loadPartial("contact-second", getPartialPath("../partials/contact-second.html"));
 
   // Gắn sự kiện menu sau khi header đã load xong
   const menuBar = document.querySelector("#menu-bar");
@@ -58,9 +58,7 @@ window.addEventListener("DOMContentLoaded", async () => {
 });
 
 // slide-main
-const listImage = document.querySelector(
-  ".main .banner-main .slider .list-img"
-);
+const listImage = document.querySelector(".main .banner-main .slider .list-img");
 const imgsMain = document.querySelectorAll(".main .banner-main .slider img");
 const prevBanner = document.querySelector(".banner-main .prev");
 const nextBanner = document.querySelector(".banner-main .next");
