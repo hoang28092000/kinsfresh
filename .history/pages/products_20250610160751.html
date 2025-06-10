@@ -1,0 +1,403 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="apple-touch-icon"
+      sizes="57x57"
+      href="../asset/favicon/apple-icon-57x57.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="60x60"
+      href="../asset/favicon/apple-icon-60x60.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="72x72"
+      href="../asset/favicon/apple-icon-72x72.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="76x76"
+      href="../asset/favicon/apple-icon-76x76.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="114x114"
+      href="../asset/favicon/apple-icon-114x114.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="120x120"
+      href="../asset/favicon/apple-icon-120x120.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="144x144"
+      href="../asset/favicon/apple-icon-144x144.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="152x152"
+      href="../asset/favicon/apple-icon-152x152.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="../asset/favicon/apple-icon-180x180.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="192x192"
+      href="../asset/favicon/android-icon-192x192.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="../asset/favicon/favicon-32x32.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="96x96"
+      href="../asset/favicon/favicon-96x96.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="../asset/favicon/favicon-16x16.png"
+    />
+    <link rel="manifest" href="../asset/favicon/manifest.json" />
+    <meta name="msapplication-TileColor" content="#ffffff" />
+    <meta
+      name="msapplication-TileImage"
+      content="../asset/favicon/ms-icon-144x144.png"
+    />
+    <meta name="theme-color" content="#ffffff" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+      integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="../css/resset.css" />
+    <link rel="stylesheet" href="../css/main.css" />
+    <link rel="stylesheet" href="../css/pages.css" />
+
+    <link rel="stylesheet" href="../css/responsive.css" />
+    <title>KinsFresh sản phẩm</title>
+  </head>
+  <body>
+    <!-- popup -->
+    <div id="contact-second"></div>
+    <!-- header -->
+    <header>
+  <div class="top-header">
+    <div class="container">
+      <div class="content">
+        <div>
+          <i class="fa-solid fa-location-dot"></i>
+          <span>Số 9b, Đường Minh Nghĩa, Đại Đồng, Thạch Thất, Hà Nội</span>
+        </div>
+        <div>
+          <i class="fa-solid fa-phone"></i>
+          <span> 0968 02 64 00</span>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="main-header">
+    <div class="container">
+      <div class="content">
+        <div class="menu-bar">
+          <i class="fa-solid fa-bars" id="menu-bar"></i>
+        </div>
+        <div class="logo">
+          <h2><a href="../index.html">KinsFresh</a></h2>
+        </div>
+        <div class="service-header">
+          <div class="item-service">
+            <img src="../asset/icons/1.png" alt="truck" />
+            <div class="info-service">
+              <h3>GIAO HÀNG NHANH</h3>
+              <p>Ship COD tận nhà. giao hàng toàn quốc</p>
+            </div>
+          </div>
+          <div class="item-service">
+            <img src="../asset/icons/2.png" alt="truck" />
+            <div class="info-service">
+              <h3>GIỜ LÀM VIỆC</h3>
+              <p>T2 - T7 Giờ hành chính</p>
+            </div>
+          </div>
+          <div class="item-service">
+            <img src="../asset/icons/3.png" alt="truck" />
+            <div class="info-service">
+              <h3>HỖ TRỢ 24/7</h3>
+              <p>Hotline: 0968 02 64 00</p>
+            </div>
+          </div>
+          <div class="item-service">
+            <img src="../asset/icons/5.png" alt="truck" />
+            <div class="info-service">
+              <h3>UY TÍN, CHẤT LƯỢNG</h3>
+              <p>Được kiểm hàng trước khi nhận</p>
+            </div>
+          </div>
+        </div>
+        <div class="cart-header">
+          <i class="fa-solid fa-cart-shopping"></i>
+          <span>Giỏ hàng</span>
+        </div>
+      </div>
+    </div>
+  </div>
+</header>
+
+    <nav class="navbar">
+      <div class="container">
+        <div class="content">
+          <ul>
+            <li>
+              <a href="../index.html">TRANG CHỦ</a>
+            </li>
+            <li>
+              <a href="./about-us.html">GIỚI THIỆU</a>
+            </li>
+            <li class="nav-products">
+              <a href="#"
+                >SẢN PHẨM
+                <i class="fa-solid fa-chevron-down" id="drop-nav"></i>
+              </a>
+              <ul class="nav_category-list">
+                <li class="nav-category">
+                  <a href="#">Rau củ quả</a>
+                </li>
+                <li class="nav-category">
+                  <a href="#">Trái cây tươi</a>
+                </li>
+                <li class="nav-category">
+                  <a href="#">Thịt heo</a>
+                </li>
+                <li class="nav-category">
+                  <a href="#">Thịt bò</a>
+                </li>
+                <li class="nav-category">
+                  <a href="#">Sản phẩm khác</a>
+                </li>
+              </ul>
+            </li>
+            <li>
+              <a href="./news.html">TIN TỨC</a>
+            </li>
+            <li>
+              <a href="./instruct.html">HƯỚNG DẪN</a>
+            </li>
+            <li>
+              <a href="./contact.html">LIÊN HỆ</a>
+            </li>
+          </ul>
+          <form action="" class="search-box">
+            <input
+              type="text"
+              id=""
+              class="search-input"
+              placeholder="Tìm kiếm... "
+            />
+            <button id="btn-search" type="button">
+              <i class="fa-solid fa-magnifying-glass"></i>
+            </button>
+          </form>
+        </div>
+      </div>
+    </nav>
+
+    <main class="main">
+      <div class="container">
+        <div class="content-main">
+          <div class="left">
+            <div class="category-main">
+              <div class="title-category">
+                <i class="fa-solid fa-bars"></i>
+                <h3>DANH MỤC SẢN PHẨM</h3>
+              </div>
+              <ul class="list-category">
+                <li>
+                  <a href="#">Rau củ quả</a>
+                </li>
+                <li>
+                  <a href="#">Trái cây tươi</a>
+                </li>
+                <li>
+                  <a href="#">Thịt lợn</a>
+                </li>
+                <li>
+                  <a href="#">Thịt bò</a>
+                </li>
+                <li>
+                  <a href="#">Sản phẩm khác</a>
+                </li>
+              </ul>
+            </div>
+            <div class="news-category">
+              <h3>TIN TỨC GẦN ĐÂY</h3>
+            </div>
+            <section class="slider-news-second-left">
+              <div class="list-news">
+                <a class="card">
+                  <div class="img-news">
+                    <img src="../asset/images/news-1.jpg" alt="news-1" />
+                  </div>
+                  <div class="info">
+                    <h3>
+                      Giá thịt lợn dự báo ổn định những tháng cuối năm 2024
+                    </h3>
+                    <p class="desc">
+                      Theo các chuyên gia và dự báo từ Cục Chăn nuôi và Thú y
+                      (Bộ Nông nghiệp và Môi trường), giá thịt lợn hơi dự kiến
+                      sẽ duy trì ở mức ổn định hoặc có xu hướng tăng nhẹ vào
+                      những tháng cuối năm 2024.
+                    </p>
+                  </div>
+                </a>
+                <a class="card">
+                  <div class="img-news">
+                    <img src="../asset/images/news-2.jpg" alt="news-1" />
+                  </div>
+                  <div class="info">
+                    <h3>
+                      Giá thịt lợn dự báo ổn định những tháng cuối năm 2024
+                    </h3>
+                    <p class="desc">
+                      Theo các chuyên gia và dự báo từ Cục Chăn nuôi và Thú y
+                      (Bộ Nông nghiệp và Môi trường), giá thịt lợn hơi dự kiến
+                      sẽ duy trì ở mức ổn định hoặc có xu hướng tăng nhẹ vào
+                      những tháng cuối năm 2024.
+                    </p>
+                  </div>
+                </a>
+                <a class="card">
+                  <div class="img-news">
+                    <img src="../asset/images/news-3.jpg" alt="news-1" />
+                  </div>
+                  <div class="info">
+                    <h3>
+                      Giá thịt lợn dự báo ổn định những tháng cuối năm 2024
+                    </h3>
+                    <p class="desc">
+                      Theo các chuyên gia và dự báo từ Cục Chăn nuôi và Thú y
+                      (Bộ Nông nghiệp và Môi trường), giá thịt lợn hơi dự kiến
+                      sẽ duy trì ở mức ổn định hoặc có xu hướng tăng nhẹ vào
+                      những tháng cuối năm 2024.
+                    </p>
+                  </div>
+                </a>
+                <a class="card">
+                  <div class="img-news">
+                    <img src="../asset/images/news-4.jpg" alt="news-1" />
+                  </div>
+                  <div class="info">
+                    <h3>
+                      Giá thịt lợn dự báo ổn định những tháng cuối năm 2024
+                    </h3>
+                    <p class="desc">
+                      Theo các chuyên gia và dự báo từ Cục Chăn nuôi và Thú y
+                      (Bộ Nông nghiệp và Môi trường), giá thịt lợn hơi dự kiến
+                      sẽ duy trì ở mức ổn định hoặc có xu hướng tăng nhẹ vào
+                      những tháng cuối năm 2024.
+                    </p>
+                  </div>
+                </a>
+              </div>
+            </section>
+          </div>
+          <div class="right-products">
+            <div id="search-results" class="list-prduct"></div>
+            <div class="list-product" id="list-product"></div>
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <footer>
+      <div class="main-footer">
+        <div class="container">
+          <div class="content">
+            <div class="info-footer">
+              <h3>THỰC PHẨM KINSFRESH</h3>
+              <ul>
+                <li>
+                  Địa chỉ : Số 9b, Minh Nghĩa, Đại Đồng, Thạch Thất, Hà Nội
+                </li>
+                <li>Giám đốc: Vũ Đình Hoàng</li>
+                <li>Hotline: 0968 02 64 00</li>
+                <li>Hotline: 0395 83 66 24</li>
+                <li>Email: hvu6097@gmail.com</li>
+              </ul>
+            </div>
+            <div class="info-footer">
+              <h3>HỖ TRỢ KHÁCH HÀNG</h3>
+              <ul>
+                <li>
+                  <a href="./pages/about-us.html">Giới thiệu</a>
+                </li>
+                <li>
+                  <a href="./details/detail-policy.html?id=1"
+                    >Chính sách đổi trả hàng</a
+                  >
+                </li>
+                <li>
+                  <a href="./details/detail-policy.html?id=2"
+                    >Chính sách giao hàng</a
+                  >
+                </li>
+                <li>
+                  <a href="./details/detail-policy.html?id=3"
+                    >Chính sách bảo mật</a
+                  >
+                </li>
+                <li>
+                  <a href="./details/detail-policy.html?id=4"
+                    >Chính sách thanh toán</a
+                  >
+                </li>
+              </ul>
+            </div>
+            <div class="info-footer">
+              <h3>BẢN ĐỒ</h3>
+              <div class="map">
+                <iframe
+                  src="https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d3722.463165754653!2d105.56170707525418!3d21.094092985531493!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zMjHCsDA1JzM4LjciTiAxMDXCsDMzJzUxLjQiRQ!5e0!3m2!1svi!2sus!4v1749319173637!5m2!1svi!2sus"
+                  width="600"
+                  height="450"
+                  style="border: 0"
+                  allowfullscreen=""
+                  loading="lazy"
+                  referrerpolicy="no-referrer-when-downgrade"
+                ></iframe>
+                <h4 class="address">
+                  Số 9b, ngõ 82, Đường Minh Nghĩa, Đại Đồng
+                </h4>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="bottom-footer">
+        <div class="content">
+          <h3>&copy; CopyRight by hoangVu 2025</h3>
+        </div>
+      </div>
+    </footer>
+
+    <script src="../js/main.js"></script>
+    <script src="../js/category.js"></script>
+    <script src="../js/filter.js"></script>
+  </body>
+</html>
