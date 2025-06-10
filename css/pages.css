@@ -44,9 +44,11 @@
   line-height: 1.76;
   list-style-type: disc;
 }
+
 .main .right-products {
   flex: 1;
 }
+
 #search-results,
 .main .right-products .list-news_main,
 .main .right-products .list-instruct,
@@ -57,7 +59,7 @@
 }
 
 #search-results{
-  margin-bottom: 60px;
+  width: 954px;
 }
 .main .right-products .list-news_main,
 .main .right-products .list-instruct {
@@ -265,7 +267,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  gap: 10px;
+  gap: 12px;
 }
 .detail-product .list-wrapper {
   display: flex;
@@ -293,6 +295,8 @@
   cursor: pointer;
 }
 .quantity .number {
+  text-align: center;
+  width: 30px;
   font-size: 3rem;
   color: #fc980c;
 }
