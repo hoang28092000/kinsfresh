@@ -28,7 +28,7 @@ window.addEventListener("DOMContentLoaded", async () => {
   await loadPartial("header", getPartialPath("header.html"));
   await loadPartial("footer", getPartialPath("footer.html"));
   await loadPartial("contact-second", getPartialPath("contact-second.html"));
-  
+  // ...các code khác...
 
   // Gắn sự kiện menu sau khi header đã load xong
   const menuBar = document.querySelector("#menu-bar");

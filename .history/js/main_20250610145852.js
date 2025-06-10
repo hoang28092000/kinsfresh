@@ -6,6 +6,7 @@ async function loadPartial(id, filePath) {
   try {
     const res = await fetch(filePath);
     if (!res.ok) throw new Error(`Failed to load ${filePath}`);
+    
     const data = await res.text();
     target.innerHTML = data;
   } catch (err) {
@@ -14,7 +15,14 @@ async function loadPartial(id, filePath) {
   }
 }
 
-// Chỉ giữ lại 1 hàm getPartialPath
+function getPartialPath(filename) {
+  const path = window.location.pathname;
+  if (path === "/" || path.endsWith("/index.html")) {
+    return `partials/${filename}`;
+  }
+  return `../partials/${filename}`;
+}
+
 function getPartialPath(filename) {
   const path = window.location.pathname;
   if (path === "/" || path.endsWith("/index.html")) {
@@ -28,7 +36,6 @@ window.addEventListener("DOMContentLoaded", async () => {
   await loadPartial("header", getPartialPath("header.html"));
   await loadPartial("footer", getPartialPath("footer.html"));
   await loadPartial("contact-second", getPartialPath("contact-second.html"));
-  
 
   // Gắn sự kiện menu sau khi header đã load xong
   const menuBar = document.querySelector("#menu-bar");
